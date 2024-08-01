@@ -17,22 +17,23 @@
         </nav>
     </header>
 
-    <main>
+    <main id="main-section">
         <section class="menu-section" id="menu-section">
             
         </section>
 
-        <form class="card-form">
+        <!-- payment details form -->
+        <form class="payment-details-form hidden" id="payment-details-form">
             <h3>Enter card details</h3>
 
             <input type="text" placeholder="Enter your name" required>
             <input type="text" placeholder="Enter card number" required>
             <input type="text" placeholder="Enter CVV" required>
 
-            <button class="pay-btn" id="pay-btn">Pay</button>
+            <button class="btn" id="pay-btn">Pay</button>
         </form>
 
-        <section class="total-section ">
+        <section class="total-section hidden" id="total-section">
             <h3>Your order</h2>
             
             <!-- generate items here using js -->
@@ -44,7 +45,7 @@
                 <p class="item-price" id="total-price">$0</p>
             </div>
 
-            <button class="complete-order-btn" id="complete-order-btn">Complete order</button>
+            <button class="btn" id="complete-order-btn">Complete order</button>
         </section>
     </main>
 
