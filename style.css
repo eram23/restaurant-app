@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-black-color: #242424; 
+    --main-grey-color: #8b8b8b;
+    --btn-main-color: #16DB99; 
+}
+
+body {
+    font-family: "Playwrite DE Grund", cursive;
+    color: var(--main-black-color);
+}
+
+nav {
+    padding: 50px 40px 50px 40px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+header {
+    background-image: url(images/restaurant.jpg);
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.food-item-option {
+    /* border: 1px solid var(--main-grey-color); */
+    border-bottom: 1px solid var(--main-grey-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 20px 0 20px 0;
+}
+
+.food-emoji {
+    width: 70px;
+    /* border: 1px solid var(--main-grey-color); */
+    font-size: 6em;
+    margin-right: 70px;
+}
+
+/* .food-item-details {
+    border: 1px solid var(--main-grey-color);
+} */
+
+.food-name {
+    font-size: 1.25em;
+    font-weight: bolder;
+}
+
+.food-desc {
+    color: var(--main-grey-color);
+    font-size: .75em;
+
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.add-item-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid var(--main-grey-color);
+    margin-left: auto;
+}
+
+.total-section {
+    border: 1px solid var(--main-grey-color);
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    padding: 10px 50px 10px 50px;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.order-items {
+    border-bottom: 1px solid var(--main-black-color);
+}
+
+.order-item {
+    display: flex;
+}
+
+.order-item-name {
+    margin-right: 10px;
+}
+
+.order-total {
+    display: flex;
+    justify-content:space-between ;
+    margin: 10px 0 40px 0;
+}
+
+.remove-item-btn {
+    border: none;
+    background-color: transparent;
+    font-family: "Playwrite DE Grund", cursive;
+    color: var(--main-grey-color);
+}
+
+.item-price {
+    margin-left: auto;
+}
+
+.complete-order-btn {
+    width: 100%;
+    padding: 25px 0 25px 0;
+    background-color: var(--btn-main-color) ;
+    font-family: "Playwrite DE Grund", cursive;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.25em;
+    font-weight: 900;
+}
+
+.card-form {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 450px;
+    max-height: 300px;
+    margin: auto auto;
+    /* border: 1px solid red; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 30px 20px;
+    z-index: 1;
+    box-shadow: 0px 0px 30px var(--main-grey-color);
+    display: none;
+}
+
+@media only screen and (max-width: 	600px) {
+    
+}

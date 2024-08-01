@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+    <title>Erik's Diner</title>
+</head>
+    <header>
+        <nav>
+            <h1>Erik's Diner</h1>
+            <p>The best burgers and pizzas in town</p>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-section" id="menu-section">
+            
+        </section>
+
+        <form class="card-form">
+            <h3>Enter card details</h3>
+
+            <input type="text" placeholder="Enter your name" required>
+            <input type="text" placeholder="Enter card number" required>
+            <input type="text" placeholder="Enter CVV" required>
+
+            <button class="pay-btn" id="pay-btn">Pay</button>
+        </form>
+
+        <section class="total-section ">
+            <h3>Your order</h2>
+            
+            <!-- generate items here using js -->
+            <div class="order-items" id="order-items">
+            </div>
+            
+            <div class="order-total">
+                <p class="order-item-name">Total:</p>
+                <p class="item-price" id="total-price">$0</p>
+            </div>
+
+            <button class="complete-order-btn" id="complete-order-btn">Complete order</button>
+        </section>
+    </main>
+
+
+    <script src="menu.js" type="module"></script>
+    <script src="render-menu.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+<body>
+    
+</body>
+</html>
