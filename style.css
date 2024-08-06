@@ -15,9 +15,9 @@ body {
 }
 
 nav {
-    padding: 50px 40px 50px 40px;
+    padding: 3em 2.5em 3em 2.5em;
     color: whitesmoke;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 header {
@@ -31,25 +31,25 @@ h2 {
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 3.125em;
 }
 
 .food-item-option {
-    /* border: 1px solid var(--main-grey-color); */
     border-bottom: 1px solid var(--main-grey-color);
     display: flex;
     justify-content: flex-start;
     align-items: center;
     max-width: 500px;
-    margin: 10px auto;
-    padding: 20px 0 20px 0;
+    margin: .5em auto;
+    padding: 1.25em 0 1.25em 0;
 }
 
 .food-emoji {
-    width: 70px;
+    width: 20%;
+    max-width: 70px;
     /* border: 1px solid var(--main-grey-color); */
     font-size: 6em;
-    margin-right: 70px;
+    margin-right: 4.25rem;
 }
 
 /* .food-item-details {
@@ -68,13 +68,14 @@ section {
 }
 
 p {
-    margin-bottom: 5px;
+    line-height: 2;
+    margin-bottom: .25em;
 }
 
 .add-item-btn {
     width: 50px;
     height: 50px;
-    border-radius: 50px;
+    border-radius: 50%;
     background-color: white;
     border: 1px solid var(--main-grey-color);
     margin-left: auto;
@@ -85,7 +86,7 @@ p {
     position: sticky;
     bottom: 0;
     background-color: white;
-    padding: 10px 50px 10px 50px;
+    padding: 0.6em 3em 0.6em 3em;
 
 }
 
@@ -102,13 +103,13 @@ h3 {
 }
 
 .order-item-name {
-    margin-right: 10px;
+    margin-right: .55em;
 }
 
 .order-total {
     display: flex;
     justify-content:space-between ;
-    margin: 10px 0 40px 0;
+    margin: .6em 0 2em 0;
 }
 
 .remove-item-btn {
@@ -124,7 +125,7 @@ h3 {
 
 .btn {
     width: 100%;
-    padding: 25px 0 25px 0;
+    padding: 1.5em 0 1.5em 0;
     background-color: var(--btn-main-color) ;
     font-family: "Playwrite DE Grund", cursive;
     color: white;
@@ -146,27 +147,27 @@ h3 {
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 30px 20px 30px 20px;
+    padding: 2em 1.25em 2em 1.25em;
     z-index: 1;
-    box-shadow: 0px 0px 30px var(--main-grey-color);
+    box-shadow: 0px 0px 2em var(--main-grey-color);
 }
 
 .payment-details-form h3 {
-    margin-bottom: 30px;
+    margin-bottom: 2em;
 }
 
 .payment-details-form input {
-    padding: 25px 30px 25px 30px;
-    margin-bottom: 25px;
+    padding: 1.5em 2em 1.5em 2em;
+    margin-bottom: 1.5em;
     color: var(--main-grey-color);
     /* border-color: var(--main-grey-color); */
 }
 
 .order-complete {
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 1.5em;
     max-width: 400px;
-    padding: 25px 55px 25px 55px;
+    padding: 1.5em 3.5em 1.5em 3.5em;
     background-color: #ECFDF5;
     color: #065F46;
     text-align: center;
@@ -175,7 +176,7 @@ h3 {
 .return-to-menu-btn {
     display: flex;
     margin: 0 auto;
-    padding: 10px;
+    padding: .6em;
     font-family: "Playwrite DE Grund", cursive;
     border: none;
     color: #065F46;
@@ -191,6 +192,12 @@ h3 {
     display: none;
 }
 
-@media only screen and (max-width: 	600px) {
+@media (max-width: 480px) {
+    main {
+        padding: 0 1em;
+    }
+}
+
+@media only screen and (min-width: 	768px) {
     
 }
